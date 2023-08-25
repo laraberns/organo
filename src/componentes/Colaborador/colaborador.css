@@ -1,6 +1,8 @@
 .colaborador {
     width: 280px;
     margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 .colaborador .cabecalho {
@@ -26,8 +28,8 @@
     color: #6278F7;
     font-size: 18px;
     line-height: 22px;
-    font-weight: bold;
     margin-bottom: 8px;
+    font-weight: 700;
 }
 
 .colaborador .rodape-colaborador h5 {
@@ -35,4 +37,11 @@
     line-height: 22px;
     color: #212121;
     padding: 0 16px;
+    font-weight: 400;
+}
+
+.deletar{
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
