@@ -45,8 +45,18 @@ function App() {
     }
   ])
 
+  const inicial = [
+    {
+      nome: 'Lara Pereira',
+      cargo: 'Desenvolvedora Front-End',
+      imagem: 'https://github.com/laraberns.png',
+      time: times[1].nome,
+      id: uuidv4(),
+      favorito: false
+    }
+  ]
 
-  const [colaboradores, setColaboradores] = useState([])
+  const [colaboradores, setColaboradores] = useState(inicial)
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
     setColaboradores([...colaboradores, colaborador])
