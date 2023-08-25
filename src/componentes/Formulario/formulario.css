@@ -19,3 +19,17 @@ h2{
     font-family: 'Prata', serif;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 1000px){
+    .formulario{
+        margin: 40px 20px;
+    }
+
+    .formulario form {
+        padding: 18px 36px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+}

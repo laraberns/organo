@@ -14,7 +14,7 @@
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     padding: 24px;
     box-sizing: border-box;
 }
@@ -22,4 +22,26 @@
 .campo-color input {
     padding: 4px 24px;
     height: 40px;
+}
+
+@media only screen and (max-width: 1000px){
+    .campo {
+        margin: 12px 0;
+    }
+    
+    .campo label {
+        font-size: 16px;
+    }
+    
+    .campo input {
+        font-size: 16px;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    
+    .campo-color input {
+        padding: 4px 24px;
+        height: 40px;
+    }
+    
 }

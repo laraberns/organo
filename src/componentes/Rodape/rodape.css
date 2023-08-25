@@ -16,3 +16,17 @@
     font-size: 24px;
     color: #fff;
 }
+
+@media only screen and (max-width: 1000px){
+    .rodape {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+        gap: 8px;
+    }
+
+    .texto-alura {
+        font-size: 20px;
+        color: #fff;
+    }
+}

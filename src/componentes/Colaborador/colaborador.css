@@ -45,3 +45,15 @@
     right: -10px;
     top: -10px;
 }
+
+@media only screen and (max-width: 1000px){
+    .colaborador {
+        width: 230px;
+    }
+    
+    .colaborador .rodape-colaborador {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+}
