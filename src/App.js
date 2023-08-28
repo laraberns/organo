@@ -4,6 +4,7 @@ import Formulario from './componentes/Formulario/formulario';
 import Time from './componentes/Time/time';
 import Rodape from './componentes/Rodape/rodape';
 import { v4 as uuidv4 } from 'uuid';
+import ToggleVisibility from './componentes/ToggleVisibility/toggleVisibility';
 
 function App() {
 
@@ -88,15 +89,19 @@ function App() {
     }))
   }
 
+  const Lara = "Lara"
+
   return (
     <div className="App">
       <Banner />
 
-      <Formulario
-        times={times.map(time => time.nome)}
-        aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}
-        cadastrarTime={cadastrarTime}
-      />
+      <ToggleVisibility>
+        <Formulario
+          times={times.map(time => time.nome)}
+          aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}
+          cadastrarTime={cadastrarTime}
+        />
+      </ToggleVisibility>
 
       {times.map((time, indice) =>
         <Time
@@ -108,7 +113,6 @@ function App() {
           aoFavoritar={resolverFavorito}
         />
       )}
-
       <Rodape />
     </div>
   )

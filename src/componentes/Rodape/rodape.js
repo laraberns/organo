@@ -1,4 +1,5 @@
 import "./rodape.css"
+import { useState } from "react";
 
 const Rodape = () => {
     return (

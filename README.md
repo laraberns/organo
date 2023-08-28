@@ -12,6 +12,7 @@
     <li> Favoritar colaboradores;</li>
     <li> Adicionar novos times;</li>
     <li> Mudar a cor dos times.</li>
+    <li> Botão para esconder/aparecer formulário</li>
 </ol>
 
 
