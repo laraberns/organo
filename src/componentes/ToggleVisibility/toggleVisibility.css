@@ -1,0 +1,43 @@
+.escondeFormulario {
+    border-radius: 50%;
+    background-color: #6278F7;
+    position: absolute;
+    right: 45px;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-organizacao{
+    font-size: 36px;
+    border-bottom: 4px solid;
+    padding-bottom: 8px;
+    font-weight: 400;
+    color: #6278F7;
+}
+
+.minha-organizacao{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 40px 0;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+    .minha-organizacao{
+        display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .escondeFormulario {
+        position: relative;
+        right: 0;
+    }
+}
