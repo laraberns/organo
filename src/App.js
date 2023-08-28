@@ -60,7 +60,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState(inicial)
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    setColaboradores([...colaboradores, colaborador])
+    setColaboradores([...colaboradores, {...colaborador, id: uuidv4()}])
   }
 
   function deletarColaborador(id) {
@@ -88,8 +88,6 @@ function App() {
       return colaborador
     }))
   }
-
-  const Lara = "Lara"
 
   return (
     <div className="App">
