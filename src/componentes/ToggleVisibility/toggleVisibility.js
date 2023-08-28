@@ -12,15 +12,19 @@ export default function ToggleVisibility({ children }) {
 
     return (
         <div className="component-container">
+
+            {/*Return empty JSX code “{}” when show = false.
+Return children JSX code “{children}” when show = true.*/}
             {show && children}
+
             <div className="minha-organizacao">
-            <h2 className="texto-organizacao"> Minha organização: </h2>
-            <span     className="escondeFormulario">
-            <FaWpforms 
-                    onClick={toggleShow}
-                />
+                <h2 className="texto-organizacao"> Minha organização: </h2>
+                <span className="escondeFormulario">
+                    <FaWpforms
+                        onClick={toggleShow}
+                    />
                 </span>
-                </div>
+            </div>
         </div>
     );
 }
