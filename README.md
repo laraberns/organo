@@ -1,22 +1,28 @@
-# Organo
+# 👥 Organo
 
-- Utilizado HTML, CSS, JS e React.
-- Objetivo: aprimorar conceitos de React.
-- Utilizado bibliotecas como React Icons, hexToRgba, uuidv4. 
-- Site para cadastrar colaboradores de acordo com o time. 
-<hr>
+Aplicação desenvolvida em React para gerenciamento de equipes e colaboradores.
 
-<ol> <b>Funcionalidades:</b> 
-    <li> Adicionar novos colaboradores; </li>
-    <li> Excluir colaboradores;</li>
-    <li> Favoritar colaboradores;</li>
-    <li> Adicionar novos times;</li>
-    <li> Mudar a cor dos times.</li>
-    <li> Botão para esconder/aparecer formulário</li>
-</ol>
+O sistema permite criar equipes personalizadas, cadastrar colaboradores, marcar favoritos, alterar as cores dos times e remover membros dinamicamente.
 
+---
 
-## Autora do projeto:
+## 🚀 Funcionalidades
 
-[<img src="https://media.licdn.com/dms/image/D4D03AQE2Okh7O5sc0g/profile-displayphoto-shrink_800_800/0/1693013484744?e=1698883200&v=beta&t=1f6XLYX6gZFge_M9daLpLEeCOSZI4BCO4GQqOzXmeRQ" width=115><br><sub>Lara Pereira</sub>](https://www.linkedin.com/in/lara-berns-pereira) |    
-| :---: | 
+- Cadastro de colaboradores
+- Cadastro de novos times
+- Exclusão de colaboradores
+- Favoritar colaboradores
+- Alteração da cor das equipes
+- Exibição dinâmica dos times
+- Interface responsiva
+- Componentização com React
+
+---
+
+## 🛠 Tecnologias
+
+- React
+- JavaScript (ES6+)
+- CSS3
+- UUID
+- React Hooks
